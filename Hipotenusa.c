@@ -77,7 +77,7 @@ int main (void){
                 cateto2= cateto1 *(tan(angulo1));
                 hipotenusa = ((pow(cateto1, 2))+(pow (cateto2,2)));
                 hipotenusa = sqrt(hipotenusa);
-                printf("\nCATETO 2: %.2lf°\n", cateto2);
+                printf("\nCATETO 2: %.2lf\n", cateto2);
                 printf("HIPOTENUSA: %.2lf", hipotenusa);
                 printf("\nANGULO 2: %.2lf°\n", angulo1);
                 break;
@@ -89,9 +89,7 @@ int main (void){
             break;
         case 3:
             printf("SALIENDO...\n");
-
             break;
-        
         default:
             printf("> Numero invalido ingrese de nuevo <\n");
             break;
