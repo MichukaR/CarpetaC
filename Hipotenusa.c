@@ -89,6 +89,7 @@ int main (void){
             break;
         case 3:
             printf("SALIENDO...\n");
+            printf("Gracias por usar \n");
             break;
         default:
             printf("> Numero invalido ingrese de nuevo <\n");
