@@ -16,7 +16,7 @@ int main(void){
     }
     if (aux2>=0)
     {
-        printf("El resultado es: %f" , aux);
+        printf("El resultado es: %.0f" , aux);
 
     } else {
         printf("El resultado en fraccion es: 1/%.0f\n" , aux);
