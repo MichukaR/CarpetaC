@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main (void){
+    int opcion, opcion2;
     int n = 0;
     int n2 = 3;
     char usuario [10];
@@ -38,7 +39,23 @@ int main (void){
     {
         printf ("Numero de intentos excedido\n");
     } else {
-        printf ("Ingresado\n");
+        printf ("Que accion desea realizar?\n");
+        printf ("1= Hacer compra de boletos  2= Ver las estadisticas  3= Salir\n");
+        scanf ("%d", &opcion);
+        switch (opcion)
+        {
+        case 1:
+            printf("\n> Compra de boletos\n");
+            break;
+        case 2:
+            printf("\nEstadisticas\n");
+            break;
+        case 3:
+            break;
+        
+        default:
+            break;
+        }
     }
     printf("FIN DEL PROGRAMA...");
     return 0;
